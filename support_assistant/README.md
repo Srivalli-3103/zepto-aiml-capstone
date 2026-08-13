@@ -26,14 +26,13 @@ To build and test the microservice locally using Docker, run these commands in y
 
 ```bash
 cd support_assistant
-# Compile the container image layers
 docker build -t zepto-support-assistant:latest -f Dockerfile ..
 
-# Run the container background thread locally
+# Run the container background thread locall
 docker run -d -p 7860:7860 --name zepto-assistant-node zepto-support-assistant:latest
 ```
 
-Open `http://127.0.0` in your browser to view the interactive documentation and test endpoints using the Swagger UI.
+Will be running at `http://127.0.0` in browser to view the interactive documentation and test endpoints using the Swagger UI.
 
 ---
 

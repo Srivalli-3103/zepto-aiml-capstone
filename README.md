@@ -1,7 +1,7 @@
 # zepto-aiml-capstone
 Capstone project 
 # Zepto Data Pipeline, Analytics, and Support Assistant Workspace
-
+  
 An integrated three-tier repository containing automated data pipelines, machine learning analytics suites, and AI customer support assistants.
 
 ## System Dependencies and Configuration
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ### 1. Data Pipeline Module (`/data_pipeline`)
 * **Execution:** Run `python data_pipeline/pipeline.py`.
-* **Core Function:** Automated scraping engine targeting books catalog records. Normalizes pricing to standard currency baselines (**1 GBP = 105.50 INR**), structures records into a strict primary/foreign key SQLite instance, and cross-validates engine integrity with pandas mapping functions.
+* **Core Function:** Automated scraping engine targeting books catalog records. Normalizes pricing to standard currency baselines, structures records into a strict primary/foreign key SQLite instance, and cross-validates engine integrity with pandas mapping functions.
 
 ### 2. Analytics Module (`/analytics`)
 * **Execution:** Open VS Code and run `01_eda.ipynb` and `02_modeling.ipynb` sequentially.
