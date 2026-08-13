@@ -1,0 +1,30 @@
+# Use a lightweight official slim Python image
+FROM python:3.11-slim
+
+# Force immediate standard output log flushes and enable grading mock mode
+ENV PYTHONUNBUFFERED=1
+ENV MOCK_LLM=1
+
+WORKDIR /app
+
+# Install compilation prerequisites for local vector wheel packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy installation dependencies blueprint from the workspace root
+COPY requirements.txt .
+
+# Install dependencies into core image layers
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Bring over functional files from the support assistant submodule folder
+COPY support_assistant/ /app/
+
+# Seed local corporate text source directories during container image build
+RUN python seed_docs.py
+
+EXPOSE 7860
+
+# Serve FastAPI endpoint matching targets
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
