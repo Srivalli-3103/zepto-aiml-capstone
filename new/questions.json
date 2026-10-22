@@ -1,0 +1,22 @@
+[
+  {"question": "What is the delivery fee for orders under 149 rupees?", "expected_keywords": ["25", "fee", "149"]},
+  {"question": "How much extra does priority delivery cost?", "expected_keywords": ["15", "priority"]},
+  {"question": "How long does delivery usually take?", "expected_keywords": ["10", "30", "minutes"]},
+  {"question": "Does Zepto deliver everywhere?", "expected_keywords": ["pin code", "serviceable"]},
+  {"question": "How long do I have to report a damaged or spoiled grocery item?", "expected_keywords": ["24 hours"]},
+  {"question": "Can I return an unopened non-perishable item?", "expected_keywords": ["7 days", "unopened"]},
+  {"question": "How long does a refund take to reach my original payment method?", "expected_keywords": ["3", "5", "business days"]},
+  {"question": "Can I return an opened personal care item?", "expected_keywords": ["non-returnable", "defect"]},
+  {"question": "What is the monthly cost of Zepto Pass+?", "expected_keywords": ["99"]},
+  {"question": "What discount do Zepto Pass members get?", "expected_keywords": ["5%"]},
+  {"question": "What happens if I cancel my Zepto Pass membership?", "expected_keywords": ["next billing", "not refunded"]},
+  {"question": "How can I track my order in real time?", "expected_keywords": ["track order", "rider"]},
+  {"question": "What should I do if my order status hasn't changed in 20 minutes?", "expected_keywords": ["20 minutes", "support"]},
+  {"question": "How long do I have to cancel an order for free?", "expected_keywords": ["2 minutes", "packed"]},
+  {"question": "What happens if a packed order can't be delivered because of a rider issue?", "expected_keywords": ["auto-cancelled", "refunded"]},
+  {"question": "What do I need to do if my order is worth over 1000 rupees and has an issue?", "expected_keywords": ["1000", "photo"]},
+  {"question": "What gift card values does Zepto offer?", "expected_keywords": ["100", "250", "500", "1000"]},
+  {"question": "How long is a Zepto gift card valid?", "expected_keywords": ["one year"]},
+  {"question": "What is the average response time for in-app chat support?", "expected_keywords": ["2 minutes"]},
+  {"question": "Does Zepto offer phone support?", "expected_keywords": ["phone", "no", "does not"]}
+]

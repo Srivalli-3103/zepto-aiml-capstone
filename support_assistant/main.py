@@ -113,8 +113,15 @@ def classify_intent(state: AssistantState) -> AssistantState:
     q_lower = state["query"].lower()
     mock_mode = os.getenv("MOCK_LLM", "1") == "1"
     
-    intent_keywords = ["delivery", "return", "refund", "membership", "tracking", "cancel", "gift card", "support hours"]
-    
+    intent_keywords = [
+    "delivery", "deliver", "fee", "priority",
+    "return", "refund", "damage", "spoiled", "issue",
+    "membership", "pass", "subscription", "discount", "cancel membership",
+    "track", "tracking", "status", "rider",
+    "cancel", "cancellation",
+    "gift card",
+    "support", "contact", "phone", "chat", "response time", "hours"
+  ]
     if mock_mode:
         # Graded baseline keyword heuristic configuration
         if any(kw in q_lower for kw in intent_keywords):

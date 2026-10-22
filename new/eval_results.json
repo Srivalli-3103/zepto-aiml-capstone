@@ -1,0 +1,162 @@
+[
+  {
+    "question": "What is the delivery fee for orders under 149 rupees?",
+    "ok": true,
+    "latency_ms": 2239.4723892211914,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Zepto delivers grocery and household essentials to serviceable pin codes within 10 to 30 minutes of order confirmation, depending on the customer's delivery zone and current order volume. Standard del...",
+    "error": null
+  },
+  {
+    "question": "How much extra does priority delivery cost?",
+    "ok": true,
+    "latency_ms": 2058.8934421539307,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Zepto delivers grocery and household essentials to serviceable pin codes within 10 to 30 minutes of order confirmation, depending on the customer's delivery zone and current order volume. Standard del...",
+    "error": null
+  },
+  {
+    "question": "How long does delivery usually take?",
+    "ok": true,
+    "latency_ms": 2045.6926822662354,
+    "score": 1.0,
+    "answer": "Based on the retrieved context: Zepto delivers grocery and household essentials to serviceable pin codes within 10 to 30 minutes of order confirmation, depending on the customer's delivery zone and current order volume. Standard del...",
+    "error": null
+  },
+  {
+    "question": "Does Zepto deliver everywhere?",
+    "ok": true,
+    "latency_ms": 2127.9048919677734,
+    "score": 1.0,
+    "answer": "Based on the retrieved context: Zepto delivers grocery and household essentials to serviceable pin codes within 10 to 30 minutes of order confirmation, depending on the customer's delivery zone and current order volume. Standard del...",
+    "error": null
+  },
+  {
+    "question": "How long do I have to report a damaged or spoiled grocery item?",
+    "ok": true,
+    "latency_ms": 2059.3924522399902,
+    "score": 1.0,
+    "answer": "Based on the retrieved context: If an order arrives with damaged, spoiled, or missing items, customers must report it within 24 hours of delivery through the 'Report an Issue' button on the order page. Zepto ships a free replacement...",
+    "error": null
+  },
+  {
+    "question": "Can I return an unopened non-perishable item?",
+    "ok": true,
+    "latency_ms": 2051.537275314331,
+    "score": 0.5,
+    "answer": "Based on the retrieved context: Grocery and perishable items may be reported for a return within 24 hours of delivery if damaged, spoiled, or incorrect; non-perishable packaged items may be returned within 7 days of delivery in unop...",
+    "error": null
+  },
+  {
+    "question": "How long does a refund take to reach my original payment method?",
+    "ok": true,
+    "latency_ms": 2061.3179206848145,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Grocery and perishable items may be reported for a return within 24 hours of delivery if damaged, spoiled, or incorrect; non-perishable packaged items may be returned within 7 days of delivery in unop...",
+    "error": null
+  },
+  {
+    "question": "Can I return an opened personal care item?",
+    "ok": true,
+    "latency_ms": 2059.1037273406982,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Grocery and perishable items may be reported for a return within 24 hours of delivery if damaged, spoiled, or incorrect; non-perishable packaged items may be returned within 7 days of delivery in unop...",
+    "error": null
+  },
+  {
+    "question": "What is the monthly cost of Zepto Pass+?",
+    "ok": true,
+    "latency_ms": 2124.755620956421,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Zepto offers three account tiers: Basic (free, default tier, standard delivery fees apply), Zepto Pass (INR 49 per month, free standard delivery on all orders and 5% off select categories), and Zepto ...",
+    "error": null
+  },
+  {
+    "question": "What discount do Zepto Pass members get?",
+    "ok": true,
+    "latency_ms": 2117.5267696380615,
+    "score": 1.0,
+    "answer": "Based on the retrieved context: Zepto offers three account tiers: Basic (free, default tier, standard delivery fees apply), Zepto Pass (INR 49 per month, free standard delivery on all orders and 5% off select categories), and Zepto ...",
+    "error": null
+  },
+  {
+    "question": "What happens if I cancel my Zepto Pass membership?",
+    "ok": true,
+    "latency_ms": 2061.0735416412354,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Zepto offers three account tiers: Basic (free, default tier, standard delivery fees apply), Zepto Pass (INR 49 per month, free standard delivery on all orders and 5% off select categories), and Zepto ...",
+    "error": null
+  },
+  {
+    "question": "How can I track my order in real time?",
+    "ok": true,
+    "latency_ms": 2113.4824752807617,
+    "score": 1.0,
+    "answer": "Based on the retrieved context: Every Zepto order shows a live rider-tracking map from the moment it is packed until delivery, accessible from the 'Track Order' screen. Estimated delivery time updates automatically as the rider move...",
+    "error": null
+  },
+  {
+    "question": "What should I do if my order status hasn't changed in 20 minutes?",
+    "ok": true,
+    "latency_ms": 2160.289764404297,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: If an order arrives with damaged, spoiled, or missing items, customers must report it within 24 hours of delivery through the 'Report an Issue' button on the order page. Zepto ships a free replacement...",
+    "error": null
+  },
+  {
+    "question": "How long do I have to cancel an order for free?",
+    "ok": true,
+    "latency_ms": 2064.6495819091797,
+    "score": 1.0,
+    "answer": "Based on the retrieved context: Orders can be cancelled free of cost any time before the order status changes to 'Packed', typically within the first 2 minutes of placing the order. Once an order has been packed, it can no longer be...",
+    "error": null
+  },
+  {
+    "question": "What happens if a packed order can't be delivered because of a rider issue?",
+    "ok": true,
+    "latency_ms": 2105.478525161743,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Orders can be cancelled free of cost any time before the order status changes to 'Packed', typically within the first 2 minutes of placing the order. Once an order has been packed, it can no longer be...",
+    "error": null
+  },
+  {
+    "question": "What do I need to do if my order is worth over 1000 rupees and has an issue?",
+    "ok": true,
+    "latency_ms": 2134.098529815674,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: If an order arrives with damaged, spoiled, or missing items, customers must report it within 24 hours of delivery through the 'Report an Issue' button on the order page. Zepto ships a free replacement...",
+    "error": null
+  },
+  {
+    "question": "What gift card values does Zepto offer?",
+    "ok": true,
+    "latency_ms": 2058.556079864502,
+    "score": 1.0,
+    "answer": "Based on the retrieved context: Zepto gift cards are available in fixed denominations of INR 100, INR 250, INR 500, and INR 1000, and are delivered by email or SMS within minutes of purchase. Gift cards are valid for 1 year from the...",
+    "error": null
+  },
+  {
+    "question": "How long is a Zepto gift card valid?",
+    "ok": true,
+    "latency_ms": 2037.3775959014893,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Zepto gift cards are available in fixed denominations of INR 100, INR 250, INR 500, and INR 1000, and are delivered by email or SMS within minutes of purchase. Gift cards are valid for 1 year from the...",
+    "error": null
+  },
+  {
+    "question": "What is the average response time for in-app chat support?",
+    "ok": true,
+    "latency_ms": 2045.8524227142334,
+    "score": 1.0,
+    "answer": "Based on the retrieved context: Zepto customer support is available via in-app chat 24 hours a day, 7 days a week, given the time-sensitive nature of quick commerce deliveries. Average in-app chat response time is under 2 minutes. E...",
+    "error": null
+  },
+  {
+    "question": "Does Zepto offer phone support?",
+    "ok": true,
+    "latency_ms": 2058.631658554077,
+    "score": 0.0,
+    "answer": "Based on the retrieved context: Zepto customer support is available via in-app chat 24 hours a day, 7 days a week, given the time-sensitive nature of quick commerce deliveries. Average in-app chat response time is under 2 minutes. E...",
+    "error": null
+  }
+]
