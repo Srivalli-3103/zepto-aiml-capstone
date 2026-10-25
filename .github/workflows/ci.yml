@@ -18,15 +18,12 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        working-directory: support_assistant
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; elif [ -f ../requirements.txt ]; then pip install -r ../requirements.txt; fi
+          pip install -r requirements.txt
 
       - name: Build Docker image
-        working-directory: support_assistant
-        run: docker build -t support-assistant -f DockerFile .
+        run: docker build -t support-assistant -f support_assistant/DockerFile .
 
       - name: Lint check (syntax only)
-        working-directory: support_assistant
-        run: python -m py_compile main.py
+        run: python -m py_compile support_assistant/main.py
